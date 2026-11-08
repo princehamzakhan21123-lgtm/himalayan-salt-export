@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Premium Himalayan Pink Salt from Pakistan. Bulk supply and export for international buyers.">
+<title>Himalayan Salt Export | Pakistan</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#100e0d;color:white}
+header{padding:22px 8%;display:flex;justify-content:space-between;align-items:center;background:#181311}
+.logo{font-size:22px;font-weight:bold;color:#f5b5a9}
+nav a{color:white;text-decoration:none;margin-left:20px}
+.hero{min-height:85vh;display:flex;align-items:center;padding:60px 8%;
+background:linear-gradient(90deg,#170f0c,#170f0cdd),url('https://images.unsplash.com/photo-1518110925495-5fe2fda0442b?auto=format&fit=crop&w=1400') center/cover}
+.hero h1{font-size:52px;max-width:650px;margin-bottom:20px}
+.hero h1 span{color:#f2a999}
+.hero p{color:#ddd;font-size:18px;line-height:1.7;max-width:550px}
+.btn{display:inline-block;margin-top:28px;padding:15px 28px;background:#c87969;color:white;text-decoration:none;border-radius:7px}
+section{padding:75px 8%;text-align:center}
+h2{font-size:34px;margin-bottom:20px;color:#f2b2a3}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:25px;margin-top:35px}
+.card{background:#241b18;padding:25px;border-radius:15px;border:1px solid #49332d}
+.card h3{color:#f2b2a3;margin:15px}
+.card p{color:#ccc;line-height:1.6}
+.about{background:#1b1513}
+footer{background:#0b0908;padding:35px;text-align:center;color:#aaa}
+@media(max-width:600px){
+.hero h1{font-size:36px}
+nav a{margin-left:8px;font-size:12px}
+header{padding:20px 4%}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">HIMALAYAN SALT</div>
+<nav>
+<a href="#home">Home</a>
+<a href="#products">Products</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<div class="hero" id="home">
+<div>
+<h1>Premium <span>Himalayan Pink Salt</span> From Pakistan</h1>
+<p>Discover premium Himalayan pink salt from Pakistan. We aim to serve international buyers, wholesalers and distributors with bulk supply and export solutions.</p>
+<a href="#contact" class="btn">Contact Us</a>
+</div>
+</div>
+
+<section id="products">
+<h2>Our Products</h2>
+<p>Explore our Himalayan salt product range.</p>
+<div class="cards">
+<div class="card">
+<h3>Pink Salt Crystals</h3>
+<p>Natural Himalayan pink salt crystals for different applications.</p>
+</div>
+<div class="card">
+<h3>Pink Salt Powder</h3>
+<p>Finely ground pink salt for food and seasoning applications.</p>
+</div>
+<div class="card">
+<h3>Salt Chunks</h3>
+<p>Himalayan salt chunks for various commercial uses.</p>
+</div>
+<div class="card">
+<h3>Bulk Supply</h3>
+<p>Bulk supply options for wholesalers and international buyers.</p>
+</div>
+</div>
+</section>
+
+<section class="about" id="about">
+<h2>About Our Business</h2>
+<p>We are focused on supplying Himalayan Pink Salt sourced from Pakistan to international markets. Our goal is to build reliable business relationships with buyers worldwide.</p>
+</section>
+
+<section id="contact">
+<h2>Let's Work Together</h2>
+<p>Interested in wholesale orders or export inquiries?</p>
+<a href="mailto:YOUR-EMAIL@example.com" class="btn">Email Us</a>
+</section>
+
+<footer>
+<p>© 2026 Himalayan Salt Export | Pakistan</p>
+</footer>
+
+</body>
+</html>
