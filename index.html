@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Himalayan Pink Salt Supplier from Pakistan. Wholesale and Export Inquiries.">
+<title>Himalaya Select | Pink Salt Export</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#fbf7f2;color:#281d24;line-height:1.6}
+header{background:#fff;padding:20px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:22px;font-weight:bold;color:#542638}
+nav a{margin:10px;color:#542638;text-decoration:none}
+.btn{display:inline-block;background:#542638;color:white;padding:13px 22px;text-decoration:none;border-radius:5px}
+.hero{background:radial-gradient(circle at 80% 30%,#a65f75,#241821);color:white;padding:75px 7%;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:30px}
+h1{font-family:Georgia,serif;font-size:55px;line-height:1.1}
+.hero p{color:#eee;font-size:17px}
+.crystal{height:250px;width:210px;margin:auto;background:linear-gradient(135deg,#fff5ee,#e8b9bd,#a65f75);clip-path:polygon(50% 0,93% 24%,100% 75%,53% 100%,4% 72%,0 28%);filter:drop-shadow(15px 20px 15px #000);animation:float 5s infinite ease-in-out}
+@keyframes float{50%{transform:translateY(-15px) rotate(5deg)}}
+.strip{background:white;padding:25px;text-align:center;color:#542638}
+section{padding:65px 7%}
+.heading{text-align:center;color:#542638;margin-bottom:35px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:white;border:1px solid #eadfe1;border-radius:8px;overflow:hidden;padding:25px;box-shadow:0 10px 25px #54263812}
+.art{height:130px;background:linear-gradient(135deg,#fff,#e8c4c9);display:grid;place-items:center;font-size:65px}
+.card h3{color:#542638}
+.dark{background:#30202a;color:white}
+.dark .card{background:#ffffff0d;color:white;border-color:#ffffff30}
+.contact{background:#f0e0df}
+input,select,textarea{width:100%;padding:13px;margin:7px 0 15px;border:1px solid #dfd1d4;border-radius:4px}
+form{background:white;padding:25px;border-radius:8px}
+footer{background:#20151c;color:white;padding:30px;text-align:center}
+@media(max-width:700px){
+.hero{grid-template-columns:1fr;padding:45px 7%}
+h1{font-size:42px}
+.cards{grid-template-columns:1fr}
+nav{display:none}
+}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">HIMALAYA SELECT</div>
+<nav>
+<a href="#products">Products</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+<a class="btn" href="#contact">Contact Us</a>
+</header>
+
+<div class="hero">
+<div>
+<p>HIMALAYAN PINK SALT · PAKISTAN</p>
+<h1>A Natural Mineral Story For Global Markets.</h1>
+<p>Wholesale and export inquiries for Himalayan pink salt from Pakistan. Explore our products and discuss your business requirements.</p>
+<a class="btn" href="#contact">Request A Quotation</a>
+</div>
+<div class="crystal"></div>
+</div>
+
+<div class="strip">
+<h2>Premium Himalayan Pink Salt</h2>
+Wholesale · Bulk Supply · Export Inquiries
+</div>
+
+<section id="products">
+<div class="heading">
+<h2>Our Products</h2>
+<p>Explore our pink salt product categories.</p>
+</div>
+<div class="cards">
+<div class="card">
+<div class="art">🧂</div>
+<h3>Edible Pink Salt</h3>
+<p>Fine and coarse pink salt for food applications. Ask about available grades and packaging.</p>
+</div>
+<div class="card">
+<div class="art">💎</div>
+<h3>Salt Crystals</h3>
+<p>Pink salt chunks and crystals for wholesale buyers.</p>
+</div>
+<div class="card">
+<div class="art">📦</div>
+<h3>Retail Packaging</h3>
+<p>Discuss retail packing and private label possibilities.</p>
+</div>
+</div>
+</section>
+
+<section class="dark" id="about">
+<div class="heading">
+<h2>Why Choose Us?</h2>
+<p>Clear communication and transparent trade discussions.</p>
+</div>
+<div class="cards">
+<div class="card"><h3>Product Details</h3><p>Discuss product specifications and available grades.</p></div>
+<div class="card"><h3>Bulk Inquiries</h3><p>Share your quantity and destination requirements.</p></div>
+<div class="card"><h3>Export Discussion</h3><p>Discuss packing, shipping and commercial terms.</p></div>
+</div>
+</section>
+
+<section id="contact" class="contact">
+<div class="heading">
+<h2>Contact Our Supplier</h2>
+<p>Send your wholesale or export inquiry.</p>
+<p>Email: princehamzakhan21123@gmail.com</p>
+</div>
+<form onsubmit="sendMail(event)">
+<label>Your Name</label>
+<input id="name" required placeholder="Your name">
+<label>Your Email</label>
+<input id="email" type="email" required placeholder="Your email">
+<label>Product</label>
+<select id="product">
+<option>Edible Pink Salt</option>
+<option>Salt Crystals</option>
+<option>Retail Packaging</option>
+</select>
+<label>Quantity & Destination</label>
+<textarea id="details" required placeholder="Tell us your quantity and country"></textarea>
+<button class="btn" type="submit">Send Inquiry</button>
+</form>
+</section>
+
+<footer>
+<h3>HIMALAYA SELECT</h3>
+<p>Pink Salt Wholesale & Export Inquiries · Pakistan</p>
+<p>© 2026 Himalaya Select</p>
+</footer>
+
+<script>
+function sendMail(e){
+e.preventDefault();
+let n=document.getElementById('name').value;
+let m=document.getElementById('email').value;
+let p=document.getElementById('product').value;
+let d=document.getElementById('details').value;
+let subject=encodeURIComponent("Pink Salt Business Inquiry");
+let body=encodeURIComponent("Name: "+n+"\nEmail: "+m+"\nProduct: "+p+"\nDetails: "+d);
+window.location.href="mailto:princehamzakhan21123@gmail.com?subject="+subject+"&body="+body;
+}
+</script>
+</body>
+</html>
